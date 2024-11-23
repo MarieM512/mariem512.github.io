@@ -61,14 +61,14 @@
 const items = [{
   label: 'À propos de moi',
   icon: 'i-carbon:user',
-  content: 'This is the content shown for Tab1'
+  content: 'Cet espace est en cours de développement'
 }, {
   label: 'Mon parcours',
   icon: 'i-carbon:3d-curve-auto-colon',
-  content: 'And, this is the content for Tab2'
+  content: 'Cet espace est en cours de développement'
 }, {
   label: 'Portfolio',
   icon: 'i-carbon:application-mobile',
-  content: 'Finally, this is the content for Tab3'
+  content: 'Cet espace est en cours de développement'
 }]
 </script>
