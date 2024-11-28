@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <UCard class="flex p-1 h-full w-full">
+  <UCard class="flex h-full w-full">
     <UAvatar
         class="flex justify-center pb-2 w-full"
         size="3xl"

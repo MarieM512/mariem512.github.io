@@ -1,7 +1,7 @@
 <template>
 
   <div class="grid grid-cols-1 md:grid-cols-4 md:grid-rows-4 h-screen w-screen gap-4 p-4">
-    <div class="col-span-1 row-span-2">
+    <div class="col-span-1 row-span-4">
       <personal-info/>
     </div>
 
@@ -15,10 +15,6 @@
       </UCard>
     </div>
 
-    <div class="col-span-1 row-span-2">
-      <personal-detail/>
-    </div>
-
     <div class="col-span-3 row-span-1">
       <skill/>
     </div>
@@ -28,7 +24,6 @@
 <script setup lang="ts">
 import AboutMe from "~/component/aboutMe.vue";
 import PersonalInfo from "~/component/personalInfo.vue";
-import PersonalDetail from "~/component/personalDetail.vue";
 import Skill from "~/component/skill.vue";
 
 const items = [{
