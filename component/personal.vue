@@ -12,7 +12,7 @@
           alt="Avatar"
       />
 
-      <p class="flex justify-center py-2">Marie Metay</p>
+      <p class="flex justify-center py-2 text-2xl">Marie Metay</p>
 
       <div class="flex justify-center p-1">
         <UBadge color="white" class="p-2">Développeuse mobile</UBadge>
