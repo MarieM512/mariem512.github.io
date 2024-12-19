@@ -5,7 +5,7 @@
       <personal/>
     </div>
 
-    <div class="col-span-2 row-span-2">
+    <div class="col-span-2 row-span-2 flex flex-wrap">
       <skill/>
     </div>
 
