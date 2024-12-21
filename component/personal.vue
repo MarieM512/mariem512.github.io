@@ -3,8 +3,8 @@
 </script>
 
 <template>
-  <UCard class="l h-full w-full relative" style="overflow-y: scroll;">
-    <div class="flex justify-between flex-col h-full">
+  <UCard class="h-full w-full flex overflow-hidden overflow-y-auto">
+   <div class="h-full flex flex-col justify-between">
       <div style="text-align: justify;">
         <UAvatar
             class="flex justify-center w-full"
@@ -36,34 +36,34 @@
         </p>
       </div>
 
-      <div class="/*absolute bottom-0 left-0*/ w-full p-4">
+     <div class="w-full p-4">
 
-        <UDivider class="p-2" label="Contactez-moi"/>
+       <UDivider class="p-2" label="Contactez-moi"/>
 
-        <a href="mailto:mariemetay.pro@gmail.com?subject=Contact via mariem512.github.io" class="py-2">✉️
-          mariemetay.pro@gmail.com</a>
+       <a href="mailto:mariemetay.pro@gmail.com?subject=Contact via mariem512.github.io" class="py-2">✉️
+         mariemetay.pro@gmail.com</a>
 
-        <p class="py-2">📱 07 78 55 83 45</p>
+       <p class="py-2">📱 07 78 55 83 45</p>
 
-        <UDivider class="p-2" label="Réseaux sociaux"/>
+       <UDivider class="p-2" label="Réseaux sociaux"/>
 
-        <div class="flex justify-center mt-auto">
-          <UButton
-              icon="i-simple-icons-github"
-              size="sm"
-              color="black"
-              variant="link"
-              onclick="window.open('https://github.com/MarieM512')"
-          />
+       <div class="flex justify-center mt-auto">
+         <UButton
+             icon="i-simple-icons-github"
+             size="sm"
+             color="black"
+             variant="link"
+             onclick="window.open('https://github.com/MarieM512')"
+         />
 
-          <UButton
-              icon="i-simple-icons:linkedin"
-              size="sm"
-              color="black"
-              variant="link"
-              onclick="window.open('https://linkedin.com/in/marie-metay-b8952b197/')"
-          />
-        </div>
+         <UButton
+             icon="i-simple-icons:linkedin"
+             size="sm"
+             color="black"
+             variant="link"
+             onclick="window.open('https://linkedin.com/in/marie-metay-b8952b197/')"
+         />
+       </div>
       </div>
     </div>
   </UCard>
