@@ -1,18 +1,20 @@
 <template>
-
-  <div class="grid grid-cols-1 md:grid-cols-3 md:grid-rows-4 h-screen w-screen gap-4 p-4">
+  <div
+    class="grid grid-cols-1 md:grid-cols-3 md:grid-rows-4 h-screen w-screen gap-4 p-4 max-w-screen-2xl mx-auto"
+  >
     <div class="col-span-2 md:col-span-1 row-span-4">
-      <personal/>
+      <personal />
     </div>
 
     <div class="col-span-2 row-span-2 flex flex-wrap">
-      <skill/>
+      <skill />
     </div>
 
-    <div class="col-span-2 row-span-2 flex">
-      <portfolio/>
+    <div
+      class="col-span-2 row-span-2"
+    >
+      <portfolio />
     </div>
-
   </div>
 </template>
 
@@ -21,3 +23,5 @@ import Personal from "~/component/personal.vue";
 import Skill from "~/component/skill.vue";
 import Portfolio from "~/component/portfolio.vue";
 </script>
+
+<style scoped></style>
