@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <UCard class="h-full w-full flex overflow-hidden overflow-y-auto">
+  <UCard class="h-full w-full flex overflow-hidden overflow-y-auto overflow-x-auto">
     <div class="h-full flex flex-col justify-between">
       <div style="text-align: justify">
         <UAvatar
