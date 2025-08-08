@@ -6,4 +6,9 @@ export default defineNuxtConfig({
     nitro: {
         preset: 'github_pages',
     },
+    app: {
+        head: {
+            title: 'Marie Metay'
+        }
+    }
 })
